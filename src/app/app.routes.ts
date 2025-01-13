@@ -3,7 +3,12 @@ import { MainLayoutComponent } from './admin/layout/main-layout/main-layout.comp
 import { DashboardComponent } from './admin/dashboard/dashboard.component';
 import { OfficeServiceComponent } from './admin/pages/office-service/office-service.component';
 import { CitizensCharterComponent } from './admin/pages/citizens-charter/citizens-charter.component';
+import { LoginComponent } from './guest/login/login.component';
 export const routes: Routes = [
+    {
+        path: 'login',
+        component: LoginComponent,
+    },
     {
         path: '',
         component: MainLayoutComponent,
